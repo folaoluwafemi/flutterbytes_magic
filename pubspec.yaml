@@ -1,0 +1,36 @@
+name: flutterbytes_magic
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: GigaSans
+      fonts:
+        - asset: assets/fonts/GigaSansRegular.otf
+          weight: 400
+        - asset: assets/fonts/GigaSansMedium.otf
+          weight: 500
+        - asset: assets/fonts/GigaSansSemiBold.otf
+          weight: 600
+        - asset: assets/fonts/GigaSansBold.otf
+          weight: 700
+
